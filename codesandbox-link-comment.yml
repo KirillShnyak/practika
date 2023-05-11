@@ -8,8 +8,8 @@ on:
     types: [opened]
 
 jobs:
-  permissions: write-all
   codesandbox-comment:
+    permissions: write-all
     name: Add codesandbox link comment
     runs-on: ubuntu-latest
     steps:
